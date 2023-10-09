@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>EDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:ECO1BGEO.001:2646918559</GranuleUR>
+        <DbID>2646918559</DbID>
+        <InsertTime>2023-10-08 07:28:32.638</InsertTime>
+        <LastUpdate>2023-10-08 07:28:32.638</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>ECO1BGEO</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>ECOSTRESS_L1B_GEO_29792_015_20231007T221330_0601_01.h5</DistributedFileName>
+                <FileSize>1216589368</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>29a948523559edf355b7c7c4ec9ebf04</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>1160.23</SizeMBECSDataGranule>
+            <LocalGranuleID>ECOSTRESS_L1B_GEO_29792_015_20231007T221330_0601_01.h5</LocalGranuleID>
+            <DayNightFlag>Night</DayNightFlag>
+            <ProductionDateTime>2023-10-08 08:24:07.827</ProductionDateTime>
+        </ECSDataGranule>
+        <PGEVersionClass>
+            <PGEVersion>6.000000</PGEVersion>
+        </PGEVersionClass>
+        <RangeDateTime>
+            <RangeEndingTime>22:14:22.920000</RangeEndingTime>
+            <RangeEndingDate>2023-10-07</RangeEndingDate>
+            <RangeBeginningTime>22:13:30.950000</RangeBeginningTime>
+            <RangeBeginningDate>2023-10-07</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <BoundingRectangle>
+                    <WestBoundingCoordinate>-39.066612</WestBoundingCoordinate>
+                    <NorthBoundingCoordinate>-1.025307</NorthBoundingCoordinate>
+                    <EastBoundingCoordinate>-34.335384</EastBoundingCoordinate>
+                    <SouthBoundingCoordinate>-6.276680</SouthBoundingCoordinate>
+                </BoundingRectangle>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <OrbitCalculatedSpatialDomain>
+            <OrbitCalculatedSpatialDomainContainer>
+                <OrbitRange>
+                    <StartOrbitNumber>29792</StartOrbitNumber>
+                    <StopOrbitNumber>29792</StopOrbitNumber>
+                </OrbitRange>
+            </OrbitCalculatedSpatialDomainContainer>
+        </OrbitCalculatedSpatialDomain>
+        <MeasuredParameter>
+            <MeasuredParameterContainer>
+                <ParameterName>L1B_GEO</ParameterName>
+            </MeasuredParameterContainer>
+        </MeasuredParameter>
+        <Platform>
+            <PlatformShortName>ISS</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>ECOSTRESS</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>PHyTIR</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <PSAs>
+            <PSA>
+                <PSAName>identifier_product_doi</PSAName>
+                <PSAValue>10.5067/ECOSTRESS/ECO0AFLX.001</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>identifier_product_doi_authority</PSAName>
+                <PSAValue>http://doi.org</PSAValue>
+            </PSA>
+        </PSAs>
+        <InputGranule>
+            <InputPointer>L1A_RAW_ATT_29792_20231007T214803_0601_01.h5</InputPointer>
+        </InputGranule>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+

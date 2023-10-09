@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>EDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:ECO1BMAPRAD.001:2646918282</GranuleUR>
+        <DbID>2646918282</DbID>
+        <InsertTime>2023-10-08 07:23:42.863</InsertTime>
+        <LastUpdate>2023-10-08 07:23:42.863</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>ECO1BMAPRAD</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>ECOSTRESS_L1B_MAP_RAD_29792_004_20231007T215403_0601_01.h5</DistributedFileName>
+                <FileSize>3398210910</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>fa10913ce57e84087fa334c84880e839</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>3240.79</SizeMBECSDataGranule>
+            <LocalGranuleID>ECOSTRESS_L1B_MAP_RAD_29792_004_20231007T215403_0601_01.h5</LocalGranuleID>
+            <DayNightFlag>Day</DayNightFlag>
+            <ProductionDateTime>2023-10-08 08:24:07.827</ProductionDateTime>
+        </ECSDataGranule>
+        <PGEVersionClass>
+            <PGEVersion>6.000000</PGEVersion>
+        </PGEVersionClass>
+        <RangeDateTime>
+            <RangeEndingTime>21:54:55.970000</RangeEndingTime>
+            <RangeEndingDate>2023-10-07</RangeEndingDate>
+            <RangeBeginningTime>21:54:04.000000</RangeBeginningTime>
+            <RangeBeginningDate>2023-10-07</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <BoundingRectangle>
+                    <WestBoundingCoordinate>-98.488022</WestBoundingCoordinate>
+                    <NorthBoundingCoordinate>50.465511</NorthBoundingCoordinate>
+                    <EastBoundingCoordinate>-92.211105</EastBoundingCoordinate>
+                    <SouthBoundingCoordinate>45.553482</SouthBoundingCoordinate>
+                </BoundingRectangle>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <OrbitCalculatedSpatialDomain>
+            <OrbitCalculatedSpatialDomainContainer>
+                <OrbitRange>
+                    <StartOrbitNumber>29792</StartOrbitNumber>
+                    <StopOrbitNumber>29792</StopOrbitNumber>
+                </OrbitRange>
+            </OrbitCalculatedSpatialDomainContainer>
+        </OrbitCalculatedSpatialDomain>
+        <MeasuredParameter>
+            <MeasuredParameterContainer>
+                <ParameterName>L1B_MAP_RAD</ParameterName>
+            </MeasuredParameterContainer>
+        </MeasuredParameter>
+        <Platform>
+            <PlatformShortName>ISS</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>ECOSTRESS</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>PHyTIR</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <PSAs>
+            <PSA>
+                <PSAName>identifier_product_doi</PSAName>
+                <PSAValue>10.5067/ECOSTRESS/ECO1BMAPRAD.001</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>identifier_product_doi_authority</PSAName>
+                <PSAValue>http://doi.org</PSAValue>
+            </PSA>
+        </PSAs>
+        <InputGranule>
+            <InputPointer>L1A_RAW_ATT_29792_20231007T214803_0601_01.h5</InputPointer>
+        </InputGranule>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:13:[EDC:DSSDSRV]:24:BR:Browse.001:2646918290</BrowseGranuleId>
+        </BrowseProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+

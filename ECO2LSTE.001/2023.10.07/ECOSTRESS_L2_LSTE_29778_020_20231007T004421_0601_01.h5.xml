@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>EDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:ECO2LSTE.001:2646937600</GranuleUR>
+        <DbID>2646937600</DbID>
+        <InsertTime>2023-10-08 09:24:15.671</InsertTime>
+        <LastUpdate>2023-10-08 09:24:15.671</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>ECO2LSTE</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>ECOSTRESS_L2_LSTE_29778_020_20231007T004421_0601_01.h5</DistributedFileName>
+                <FileSize>138069908</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>b2ea4c2879e122a099d6462cde18bd43</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>131.674</SizeMBECSDataGranule>
+            <LocalGranuleID>ECOSTRESS_L2_LSTE_29778_020_20231007T004421_0601_01.h5</LocalGranuleID>
+            <DayNightFlag>Night</DayNightFlag>
+            <ProductionDateTime>2023-10-08 13:38:32.677</ProductionDateTime>
+        </ECSDataGranule>
+        <PGEVersionClass>
+            <PGEVersion>1.2.4</PGEVersion>
+        </PGEVersionClass>
+        <RangeDateTime>
+            <RangeEndingTime>00:49:22.320000</RangeEndingTime>
+            <RangeEndingDate>2023-10-07</RangeEndingDate>
+            <RangeBeginningTime>00:44:22.320000</RangeBeginningTime>
+            <RangeBeginningDate>2023-10-07</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <BoundingRectangle>
+                    <WestBoundingCoordinate>-41.945362</WestBoundingCoordinate>
+                    <NorthBoundingCoordinate>-31.933485</NorthBoundingCoordinate>
+                    <EastBoundingCoordinate>-36.187283</EastBoundingCoordinate>
+                    <SouthBoundingCoordinate>-37.286228</SouthBoundingCoordinate>
+                </BoundingRectangle>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <OrbitCalculatedSpatialDomain>
+            <OrbitCalculatedSpatialDomainContainer>
+                <OrbitRange>
+                    <StartOrbitNumber>29778</StartOrbitNumber>
+                    <StopOrbitNumber>29778</StopOrbitNumber>
+                </OrbitRange>
+            </OrbitCalculatedSpatialDomainContainer>
+        </OrbitCalculatedSpatialDomain>
+        <MeasuredParameter>
+            <MeasuredParameterContainer>
+                <ParameterName>L2_LSTE</ParameterName>
+            </MeasuredParameterContainer>
+        </MeasuredParameter>
+        <Platform>
+            <PlatformShortName>ISS</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>ECOSTRESS</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>PHyTIR</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <PSAs>
+            <PSA>
+                <PSAName>identifier_product_doi</PSAName>
+                <PSAValue>10.5067/ECOSTRESS/ECO2LSTE.001</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>identifier_product_doi_authority</PSAName>
+                <PSAValue>http://doi.org</PSAValue>
+            </PSA>
+        </PSAs>
+        <InputGranule>
+            <InputPointer>/ops/store15/PRODUCTS/L1B_GEO/2023/10/07/ECOSTRESS_L1B_GEO_29778_020_20231007T004421_0601_01.h5</InputPointer>
+        </InputGranule>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:13:[EDC:DSSDSRV]:24:BR:Browse.001:2646937609</BrowseGranuleId>
+        </BrowseProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
